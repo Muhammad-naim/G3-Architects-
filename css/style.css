@@ -1,0 +1,125 @@
+/* common designs  */
+body{
+    margin: 0;
+}
+.content-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.primary-button{
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+}
+/* header design  */
+
+.header-container{
+    background: rgba(255, 144, 14, 0.1);
+} 
+
+/* navbar design  */ 
+
+.nav-container{
+    padding: 50px 240px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-container .logo{
+    margin: 10px 0;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 10px;
+}
+
+/* banner design  */
+.banner-content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-content{
+    /* display: flex; */
+    width: 50%;
+    text-align: center;
+    padding: 0px 450px 30px;
+}
+.banner-heading{
+    font-weight: 700;
+    font-size: 64px;
+    margin-top: 0;
+}
+
+
+.banner-image{
+    padding: 40px 240px 40px;
+}
+.banner-image img{
+    width: 100%;
+    border-radius: 8px;
+}
+/* Feature design  */
+
+.feature-section{
+    padding: 30px 270px 0px;
+}
+.features-container{
+    display: flex;
+    justify-content: space-between;
+}
+.feature-items{
+    text-align: left;
+    width: 45%;
+}
+.feature-photo-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.feature-photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+.feature-heading{
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight: 700px;
+}
+.span-style-1{
+    font-weight: 500;
+    color: #727272;    
+}
+.span-style-2{
+    color: #FF900E;
+}
+
+/* descriptive features  design  */
+.descriptive-features-container{
+    display: flex;
+    padding: 20px 240px;
+}
+.descriptive-features-item{
+    width: 50%;
+}
+
+.photo-container img{
+    width: 100%;
+}
+.item-heading{
+    font-weight: 700;
+    font-size: 40px
+}
+.
